@@ -1,0 +1,9 @@
+/**
+ * 
+ */
+/**
+ * 
+ */
+module IntroToUnitTestingManual {
+	requires junit;
+}

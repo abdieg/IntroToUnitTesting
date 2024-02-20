@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "C:\\Users\\Diego\\OneDrive\\Documentos\\DevQaVM\\Eclipse-Workspace\\selenium_maven_testng_practicev1\\src\\test\\resources\\testng-1.0.dtd">
+<suite name="Run all tests">
+<!--    <test verbose="1" name="Firefox tests">-->
+<!--        <parameter name="browser" value="Firefox"/>-->
+<!--        <classes>-->
+<!--            <class name="TestScenariosByClass">-->
+<!--                <methods>-->
+<!--                    <include name="test_verify_logo"/>-->
+<!--                    <include name="test_verify_register_button"/>-->
+<!--                    <include name="test_verify_login_button"/>-->
+<!--                </methods>-->
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+    <test verbose="1" name="Edge tests">
+        <parameter name="browser" value="Edge"/>
+        <classes>
+            <class name="org.phpbb.selenium.automation.tests.TestScenariosByMethod">
+                <methods>
+                    <include name="test_verify_logo"/>
+                    <include name="test_verify_register_button"/>
+                    <include name="test_verify_login_button"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test verbose="1" name="Chrome tests">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="org.phpbb.selenium.automation.tests.TestScenariosByClass">
+                <methods>
+                    <include name="test_verify_logo"/>
+                    <include name="test_verify_register_button"/>
+                    <include name="test_verify_login_button"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

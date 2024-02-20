@@ -1,0 +1,13 @@
+app-url = http://10.10.10.20/
+sign_in_user = pedro
+sign_in_pass = 123456789
+browser = chrome
+
+firefox_driver_location = /Users/diego/Coding/SeleniumServer/geckodriver
+edge_driver_location = /Users/diego/Coding/SeleniumServer/msedgedriver
+chrome_driver_location = /Users/diego/Coding/SeleniumServer/chromedriver
+safari_driver_location = /Users/diego/Coding/SeleniumServer/safaridriver
+
+window_width = 1280
+window_height = 720
+timeout = 10

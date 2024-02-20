@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-02-20T12:15:27 GMT-06:00" name="Run all tests" finished-at="2024-02-20T12:15:35 GMT-06:00" duration-ms="7851">
+    <groups>
+    </groups>
+    <test started-at="2024-02-20T12:15:27 GMT-06:00" name="Edge tests" finished-at="2024-02-20T12:15:33 GMT-06:00" duration-ms="5769">
+      <class name="org.phpbb.selenium.automation.tests.TestScenariosByMethod">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:27 GMT-06:00" name="setup" finished-at="2024-02-20T12:15:29 GMT-06:00" duration-ms="2071" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_verify_logo()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:29 GMT-06:00" name="test_verify_logo" finished-at="2024-02-20T12:15:29 GMT-06:00" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_verify_logo -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:29 GMT-06:00" name="tearDown" finished-at="2024-02-20T12:15:29 GMT-06:00" duration-ms="165" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:29 GMT-06:00" name="setup" finished-at="2024-02-20T12:15:31 GMT-06:00" duration-ms="1239" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_verify_register_button()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:31 GMT-06:00" name="test_verify_register_button" finished-at="2024-02-20T12:15:31 GMT-06:00" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_verify_register_button -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:31 GMT-06:00" name="tearDown" finished-at="2024-02-20T12:15:31 GMT-06:00" duration-ms="157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:31 GMT-06:00" name="setup" finished-at="2024-02-20T12:15:32 GMT-06:00" duration-ms="1159" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_verify_login_button()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:32 GMT-06:00" name="test_verify_login_button" finished-at="2024-02-20T12:15:33 GMT-06:00" duration-ms="256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_verify_login_button -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByMethod@28701274]" started-at="2024-02-20T12:15:33 GMT-06:00" name="tearDown" finished-at="2024-02-20T12:15:33 GMT-06:00" duration-ms="140" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.phpbb.selenium.automation.tests.TestScenariosByMethod -->
+    </test> <!-- Edge tests -->
+    <test started-at="2024-02-20T12:15:33 GMT-06:00" name="Chrome tests" finished-at="2024-02-20T12:15:35 GMT-06:00" duration-ms="2058">
+      <class name="org.phpbb.selenium.automation.tests.TestScenariosByClass">
+        <test-method is-config="true" signature="loadProperties()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByClass@62ddbd7e]" started-at="2024-02-20T12:15:27 GMT-06:00" name="loadProperties" finished-at="2024-02-20T12:15:27 GMT-06:00" duration-ms="17" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadProperties -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByClass@62ddbd7e]" started-at="2024-02-20T12:15:33 GMT-06:00" name="setup" finished-at="2024-02-20T12:15:34 GMT-06:00" duration-ms="1198" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="test_verify_logo()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByClass@62ddbd7e]" started-at="2024-02-20T12:15:34 GMT-06:00" name="test_verify_logo" finished-at="2024-02-20T12:15:34 GMT-06:00" duration-ms="170" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_verify_logo -->
+        <test-method signature="test_verify_register_button()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByClass@62ddbd7e]" started-at="2024-02-20T12:15:34 GMT-06:00" name="test_verify_register_button" finished-at="2024-02-20T12:15:34 GMT-06:00" duration-ms="251" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_verify_register_button -->
+        <test-method signature="test_verify_login_button()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByClass@62ddbd7e]" started-at="2024-02-20T12:15:34 GMT-06:00" name="test_verify_login_button" finished-at="2024-02-20T12:15:35 GMT-06:00" duration-ms="261" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test_verify_login_button -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:org.phpbb.selenium.automation.tests.TestScenariosByClass@62ddbd7e]" started-at="2024-02-20T12:15:35 GMT-06:00" name="tearDown" finished-at="2024-02-20T12:15:35 GMT-06:00" duration-ms="172" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- org.phpbb.selenium.automation.tests.TestScenariosByClass -->
+    </test> <!-- Chrome tests -->
+  </suite> <!-- Run all tests -->
+</testng-results>
